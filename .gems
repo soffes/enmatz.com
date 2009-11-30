@@ -1,2 +1,1 @@
-twitter --version ">= 0.7.7" --source http://gemcutter.org
 google_translate --version ">= 0.0.3" --source http://gemcutter.org
