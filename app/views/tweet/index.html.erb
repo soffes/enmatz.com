@@ -1,0 +1,8 @@
+<ul>
+<%- for tweet in @tweets -%>
+  <li>
+    <strong><%= time_ago_in_words DateTime.parse(tweet["created_at"]) %></strong>
+    <span><%= tweet["text"].to_en("ja") %></span>
+  </li>
+<%- end -%>
+</ul>
