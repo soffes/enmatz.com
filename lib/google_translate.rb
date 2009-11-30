@@ -1,3 +1,5 @@
+# Forked from http://github.com/azisaka/google-translate-api
+
 require 'rubygems'
 require 'net/http'
 require 'json'
